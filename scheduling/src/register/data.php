@@ -26,7 +26,7 @@ if ($cadastro->senha != $cadastro->confSenha) {
 
     if ($count['COUNT(*)'] == 0) {
 
-        $sql =  "INSERT INTO tb_usuario (nome_usuario, email_usuario, senha_usuario) VALUES ('" . $cadastro->nome . "','" . $cadastro->email . "','" . $cadastro->senha . "')";
+        $sql =  "INSERT INTO tb_usuario (nome_usuario, email_usuario, senha_usuario, tipo_usuario) VALUES ('" . $cadastro->nome . "','" . $cadastro->email . "','" . $cadastro->senha . "', 'cliente')";
 
         if (mysqli_query($_SESSION['con'], $sql)) {
     ?>

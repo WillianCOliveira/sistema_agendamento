@@ -12,8 +12,8 @@
 	<link rel="stylesheet" href="../css/style.css">
 
 	</head>
-	<body>
-	<section class="ftco-section" style="background-color: #b06e7f">
+	<body style="background-color: #b06e7f">
+	<section class="ftco-section" >
 		<div class="container" >
 			<div class="row justify-content-center">
 			</div>

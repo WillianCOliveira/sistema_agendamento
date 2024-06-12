@@ -27,36 +27,26 @@ ini_set("display_errors", false);
   }
   </style>
 
-<body>
-  <!-- As a heading -->
-  <nav class="navbar bg-body-tertiary shadow ">
-    <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1">Menu</span>
-      <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#menu">
-        <img src="../../images/menu.png" alt="buttonpng" border="0" style="width: 50px; height: 50px;">
-      </button>
-    </div>
-  </nav>
-
-  <!-- Modal -->
-  <div class="modal" id="menu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Menu</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="../home/index.php">Quadro de agendamentos</a></li>
-            <li class="list-group-item"><a href="../agendamentos/index.php">Agendamentos</a></li>
-            <li class="list-group-item"><a href="../services/index.php">Serviços</a></li>
-            <li class="list-group-item"><a href="../login/logout.php">Sair</a></li>
-          </ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
+<body style="background-color: #b06e7f">
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link"  href="../home/index.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../agendamentos/index.php">Agendamentos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../services/index.php">Serviços</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="../login/logout.php">Sair</a>
+      </li>
+    </ul>
   </div>
+</nav>

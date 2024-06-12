@@ -22,12 +22,9 @@ if (isset($_POST['email']) || isset($_POST['password'])) {
 
         $usuario = $result->fetch_assoc();
 
-       
-
         $_SESSION['id_usuario'] = $usuario['id_usuario'];
         $_SESSION['nome_usuario'] = $usuario['nome_usuario'];
-
-       
+        $_SESSION['tipo_usuario'] = $usuario['tipo_usuario'];
 
 ?>
         <script type="text/javascript">

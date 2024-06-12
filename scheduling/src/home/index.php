@@ -3,7 +3,7 @@ ini_set("display_errors",false);
 include("../../../config.php");
 include("../menu/index.php");
 
-
+//print_r($_SESSION);
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +15,7 @@ include("../menu/index.php");
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 	<link href="styles.css" rel="stylesheet">
 </head>
-<body>
+<body >
     <div class="container">
         <div class="title">Quadro de agendamentos</div>
         <div class="divider"></div>
